@@ -1,18 +1,26 @@
-# input-binding
+# 08. HTTP Requests
 
-> A Vue.js project
+**Date:** July 05, 2026
 
-## Build Setup
+### What I Learned
 
-``` bash
-# install dependencies
-npm install
+Today I learned how to send data from my Vue app to a server using HTTP Requests.
 
-# serve with hot reload at localhost:8080
-npm run dev
+I used `vue-resource` to make a POST request when user submits the blog form.
 
-# build for production with minification
-npm run build
-```
+### Key Points:
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- How to install and use `vue-resource`
+- How to use `this.$http.post()`
+- Sending form data to server
+- Showing success message after request
+- Two-way binding with `v-model`
+
+### Main Conclusion:
+
+HTTP Requests allow our app to communicate with a server — send and receive data. 
+This is very important because almost every real website needs to save data on a server.
+
+---
+
+**Status:** Completed !!!
